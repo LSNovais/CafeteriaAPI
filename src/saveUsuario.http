@@ -1,0 +1,35 @@
+
+@host = http://localhost:8080/cafeteria/inicio/login/cadastrar
+
+
+###
+
+POST {{host}}
+Content-Type: application/json
+
+
+{
+    "id": 1,
+    "nome": "Lucas",
+    "sobrenome": "da Silva Novais",
+    "email": "lucas.nds@hotmail.com",
+    "cpf": 41408941805,
+    "dtNascimento": "1643163777829",
+    "senha": "C@sal2021",
+    "codPerfil": "1",
+    "dtUltLogin": "1643163777829",
+    "stsAtivo": "1"
+}
+
+{
+    "id": 2,
+    "nome": "Juliana",
+    "sobrenome": "da Silva Novais",
+    "email": "julucacalcanti@gmail.com",
+    "cpf": 42204279889,
+    "dtNascimento": 1643163777829,
+    "senha": "Samanta3",
+    "codPerfil": 1,
+    "dtUltLogin": 1643163777829,
+    "stsAtivo": 1
+}

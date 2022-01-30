@@ -1,0 +1,32 @@
+
+@host = http://localhost:8080/cafeteria/tabelanutricional/salvar/produto
+
+
+###
+
+POST {{host}}
+Content-Type: application/json
+
+
+{
+    "codBarras": 123,
+    "valorEnergetico": 12,
+    "carboidratos": 13,
+    "proteinas": 14,
+    "gordurasTotais": 15,
+    "gordurasSaturadas": 16,
+    "gordurasTrans": 17,
+    "fibraAlimentar": 18,
+    "sodio": 19,
+    "dataValidade": "2022-01-24T20:14:01.719+00:00",
+    "dataFabricacao": "2022-01-24T20:14:01.719+00:00",
+    "comentarios": "Comentario do produto teste",
+    "vdValorEnergetico": 20,
+    "vdCarboidratos": 21,
+    "vdProteinas": 22,
+    "vdGordurasTotais": 23,
+    "vdGordurasSaturadas": 24,
+    "vdGordurasTrans": 25,
+    "vdFibraAlimentar": 26,
+    "vdSodio": 27
+}

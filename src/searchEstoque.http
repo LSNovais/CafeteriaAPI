@@ -1,0 +1,4 @@
+@host = http://localhost:8080/cafeteria/estoque/carregar/produto/333
+
+
+{{host}}
