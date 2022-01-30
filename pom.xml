@@ -62,12 +62,6 @@
 			<version>2.4.9</version>
 		</dependency>
  </dependencies>
- <mvc:cors>
-	<mvc:mapping path="/**" />
-</mvc:cors>
-<http>
-	<cors />
-</http>
 
 	<build>
 		<plugins>
